@@ -1,0 +1,6 @@
+@Lab14_SolisVictor_HostAddress = http://localhost:5118
+
+GET {{Lab14_SolisVictor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
