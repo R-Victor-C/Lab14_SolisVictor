@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "Lab14_SolisVictor.csproj",
+      "use": "@vercel/dotnet"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/Lab14_SolisVictor/$1"
+    }
+  ]
+}
